@@ -13,3 +13,6 @@ class Solution:
                 m += c.lower()
         
         return m == m[::-1]      
+s="helloolleh"
+sl=Solution()
+print(sl.isPalindrome(s))
